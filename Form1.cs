@@ -51,7 +51,7 @@ namespace FormReaderApp
             Form btn_datainsert = new btn_datainsert();
             btn_datainsert.ShowDialog();
         }
-
+        #region This is a Test
         private void loadDatabaseToolStripMenuItem_Click(object sender, EventArgs e)
         {
             try
@@ -75,5 +75,6 @@ namespace FormReaderApp
                 MessageBox.Show("An error has occurred: " + er);
             }
         }
+        #endregion
     }
 }
